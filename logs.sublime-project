@@ -1,0 +1,19 @@
+    {
+        "folders": [
+            {
+                "follow_symlinks": true,
+                "path": "."
+            }
+        ],
+        "settings": {
+            "xdebug": {
+                "url": "http://localhost/logs/",
+                "ide_key": "my.sublime.key",
+                "port": 9000,
+                "debug": true,
+                "max_depth": 4,
+                "super_globals": true,
+                "break_on_start": false
+            }
+        }
+    }

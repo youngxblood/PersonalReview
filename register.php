@@ -1,12 +1,10 @@
 
-<?php include "inc/connection.php";?>
 <?php
+
+include "inc/connection.php";
+
 ob_start();
 session_start();
-// if (isset($_SESSION['user']) !="") {
-// 	header("Location: home.php");
-// }
-
 
 $error = false;
 
@@ -42,10 +40,9 @@ if (isset($_POST['name'] )) {
 		$error = true;
 		$emailError = "Please enter a valid email address.";
 	} else  {
+
 		// CHECK TO SEE IF EMAIL EXISTS IN THE TABLE
 
-		// $query = "SELECT userEmail FROM users WHERE userEmail='$email'";
-		// $result = $conn->query("SELECT userEmail FROM users WHERE userEmail='$email'");
 
 		if ( $result = $conn->query("SELECT userEmail FROM users WHERE userEmail='$email'")) {
 			$count = $result->num_rows;
@@ -94,23 +91,10 @@ if (isset($_POST['name'] )) {
 }
 $pageTitle = "Register";
 $section   = "bootstrap";
-?>
-<?php
+
+
 include "inc/header.php";
 include "inc/linkstyler.php";
-?>
-
-
-<div id="wrapper">
-	<form action="" method="post">
-		Full name: <input type="text" name="name"><br>
-		Password: <input type="text" name="pass"><br>
-		Email: <input type="text" name="email"><br>
-		<input type="submit">
-	</form>
-
-
-</div>
 
 
 
@@ -118,4 +102,7 @@ include "inc/linkstyler.php";
 
 
 
-<?php include "inc/footer.php";?>
+
+
+
+include "inc/footer.php";

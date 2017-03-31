@@ -7,7 +7,7 @@
         ],
         "settings": {
             "xdebug": {
-                "url": "http://localhost/logs/",
+                "url": "http://localhost/personalreview/",
                 "ide_key": "my.sublime.key",
                 "port": 9000,
                 "debug": true,

@@ -13,13 +13,16 @@ $sql = "CREATE TABLE IF NOT EXISTS `users` (
 $conn->query($sql);
 
 // sql to create table for 'notes'
-$sql = "CREATE TABLE IF NOT EXISTS 'userNotes' (
+$sql = "CREATE TABLE IF NOT EXISTS userNotes (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 log_summ VARCHAR(30) NOT NULL,
 log_body VARCHAR(1000) NOT NULL,
 log_date TIMESTAMP)";
 
 $conn->query($sql);
+if (!$conn->query($sql)) {
+	$tableError = "Table could not be created.";
+}
 
 /*
 

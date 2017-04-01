@@ -28,38 +28,41 @@ include "inc/linkstyler.php";
                 Title:
             </label>
             <input name="posttitle" type="text">
-                <label for="body">
-                    Body:
-                </label>
-            </input>
-            <textarea cols="50" placeholder="Type text here..." rows="4" name="postbody">
-            </textarea>
-            <input name="submit" type="submit">
-            </input>
-        </form>
-                <!-- PHP/SQL TO INSERT FORM DATA INTO -->
-        <?php
-            include "inc/dbconnect.php";
-            include "inc/sqltableinit.php";
-                 if ( isset($_POST['posttitle']) && isset($_POST['postbody'] ) ) {
-                $logtitle = $_POST['posttitle'];
-                $logbody = $_POST['postbody'];
-                $success = true;
-                 } else {
-                $logtitle = '';
-                $logbody = '';
-                $success = false;
-                }
+            <label for="body">
+                Body:
+            </label>
+        </input>
+        <textarea cols="50" placeholder="Type text here..." rows="4" name="postbody">
+        </textarea>
+        <input name="submit" type="submit">
+    </input>
+</form>
+<!-- PHP/SQL TO INSERT FORM DATA INTO -->
+<?php
+include "inc/dbconnect.php";
+include "inc/sqltableinit.php";
+include "inc/functions.php";
+if ( isset($_POST['posttitle']) && isset($_POST['postbody'] ) ) {
+    $logTitle = $_POST['posttitle'];
+    $logTitle = sanitize($logTitle);
+    $logBody = $_POST['postbody'];
+    $logBody = sanitize($logBody);
+    $success = true;
+} else {
+    $logTitle = '';
+    $logBody = '';
+    $success = false;
+}
 
-                 $sql = "INSERT INTO UserNotes (log_summ, log_body)
-                    VALUES ('$logtitle', '$logbody')";
+$sql = "INSERT INTO UserNotes (log_summ, log_body)
+VALUES ('$logTitle', '$logBody')";
 
-                 if ($success == true) {
-                 $conn->query($sql);
-                 echo "New record created successfully";
-        }
-        ?>
-    </div>
+if ($success == true) {
+   $conn->query($sql);
+   echo "New record created successfully";
+}
+?>
+</div>
 </div>
 
 <?php include "inc/footer.php"?>

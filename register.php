@@ -13,9 +13,9 @@ $error = false;
 if ( isset( $_POST['name'] ) ) {
 
 // Sanitize function from "inc/functions.php" to combat HTML/SQL injections
-	$name = sanitize( $_POST['name'] );
+	$name  = sanitize( $_POST['name'] );
 	$email = sanitize( $_POST['email'] );
-	$pass = sanitize( $_POST['pass'] );
+	$pass  = sanitize( $_POST['pass'] );
 
 }
 
@@ -38,18 +38,11 @@ if (!filter_var($email,FILTER_VALIDATE_EMAIL)) {
 } else  {
 
 		// CHECK TO SEE IF EMAIL EXISTS IN THE TABLE
-
-
 	if ( $result = $conn->query("SELECT userEmail FROM users WHERE userEmail='$email'")) {
 		$count = $result->num_rows;
-
-
 	}
 
 
-
-		// $query = $conn->query("SELECT * FROM users WHERE userEmail='$email'");
-		// $count = $query->num_rows;
 	if ($count != 0) {
 		$error = true;
 		$emailError = "Email entered is already in use.";

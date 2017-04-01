@@ -5,7 +5,7 @@ include "inc/linkstyler.php";
 
 <?php
 
-include_once "inc/connection.php";
+include_once "inc/dbconnect.php";
 
 $sql =  mysql_query("INSERT INTO users (userId, userName, userEmail, userPass)
   VALUES ('$fname', '$lname', '$email')");
@@ -20,7 +20,7 @@ $sql =  mysql_query("INSERT INTO users (userId, userName, userEmail, userPass)
 </html>
 
 <?php
-include "inc/connection.php";
+include "inc/dbconnect.php";
     // $sql = "SELECT * FROM users";
 $conn->query($sql);
 include "inc/footer.php"

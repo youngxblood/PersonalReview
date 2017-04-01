@@ -11,7 +11,7 @@
 <div id="wrapper">
 
 	<?php
-	include "inc/connection.php";
+	include "inc/dbconnect.php.php";
 	include "inc/sqltableinit.php";
 
 	if ( isset($_POST['fname']) && isset($_POST['lname']) && isset($_POST['email']) && isset($_POST['comm']) ) {

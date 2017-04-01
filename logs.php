@@ -39,7 +39,7 @@ include "inc/linkstyler.php";
         </form>
                 <!-- PHP/SQL TO INSERT FORM DATA INTO -->
         <?php
-            include "inc/connection.php";
+            include "inc/dbconnect.php";
             include "inc/sqltableinit.php";
                  if ( isset($_POST['posttitle']) && isset($_POST['postbody'] ) ) {
                 $logtitle = $_POST['posttitle'];

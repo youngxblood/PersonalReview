@@ -1,0 +1,510 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"username"
+			],
+			[
+				"mysql_fet",
+				"mysqli_fetch_array"
+			],
+			[
+				"funct",
+				"functions.php\t(register.php)"
+			],
+			[
+				"require",
+				"require_once"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"regis",
+				"register.php"
+			],
+			[
+				"header",
+				"header.php\t(index.php)"
+			],
+			[
+				"p",
+				"password"
+			],
+			[
+				"name",
+				"nameError"
+			],
+			[
+				"connec",
+				"connection.php"
+			],
+			[
+				"sq",
+				"sqltableinit.php\t(index.php)"
+			],
+			[
+				"suc",
+				"success"
+			],
+			[
+				"log",
+				"logbody"
+			],
+			[
+				"connect",
+				"connection.php\t(index.php)"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"sty",
+				"styles.css\t(bootstrapv2.php)"
+			],
+			[
+				"footer",
+				"footer.php\t(about.php)"
+			],
+			[
+				"link",
+				"linkstyler.php\t(about.php)"
+			],
+			[
+				"include",
+				"include〔keyword〕"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"cont",
+				"container\t(header.php)"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"post",
+				"position"
+			],
+			[
+				"boot",
+				"bootstrap\t(header.php)"
+			],
+			[
+				"sb",
+				"submit\t(userfeedback.php)"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"fo",
+				"form\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "package sync",
+		"selected_items":
+		[
+			[
+				"package sync",
+				"PackageSync: Sync Online - Push Settings to Online Sync Folder"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"gutter",
+				"Origami: Create and Focus Pane on the Right"
+			],
+			[
+				"box",
+				"Boxy Theme: Activation"
+			],
+			[
+				"bo",
+				"Boxy Theme: Activation"
+			],
+			[
+				"push",
+				"git: push"
+			],
+			[
+				"bran",
+				"git: branch"
+			],
+			[
+				"statu",
+				"git: status"
+			],
+			[
+				"br",
+				"git: branch"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"git",
+				"git: push"
+			],
+			[
+				"bra",
+				"git: branch"
+			],
+			[
+				"start",
+				"Xdebug: Start Debugging (Launch Browser)"
+			],
+			[
+				"stop",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"xd",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"cmd",
+				"Git: Custom Command"
+			],
+			[
+				"branch",
+				"Git: Change Branch"
+			],
+			[
+				"git: remote",
+				"git: remote add"
+			],
+			[
+				"git: bra",
+				"Git: Change Branch"
+			],
+			[
+				"form",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"for",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"format",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"git:st",
+				"git: status"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 127.0,
+		"history":
+		[
+			"window.get_layout()",
+			"window,get_layout()",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"git status"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/personalreview"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/personalreview/index.php",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/xampp/htdocs/basic-yii/models/User.php",
+		"/C/xampp/htdocs/basicyii/config/web.php",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
+		"/C/xampp/htdocs/personalreview/inc/header.php",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/Boxy Theme Addon - Unified Mode/Widget - Boxy Tomorrow.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/Boxy Theme Addon - Unified Mode/Widget - Boxy Tomorrow.stTheme",
+		"/C/xampp/htdocs/personalreview/inc/sqltableinit.php",
+		"/C/xampp/htdocs/personalreview/home.php",
+		"/C/xampp/htdocs/personalreview/logs.php",
+		"/C/xampp/htdocs/personalreview/welcome.php",
+		"/C/xampp/htdocs/personalreview/register.php",
+		"/C/xampp/htdocs/personalreview/acceptfeedback.php",
+		"/C/xampp/htdocs/personalreview/inc/login.php",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/personalreview/inc/functions.php",
+		"/C/xampp/htdocs/personalreview/logs.sublime-project",
+		"/C/xampp/htdocs/logs/logs.sublime-project",
+		"/C/Users/Mark/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/C/xampp/htdocs/logs/inc/connection.php",
+		"/C/Users/Mark/AppData/Roaming/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
+		"/C/xampp/htdocs/logs/info.php",
+		"/C/xampp/htdocs/logs/inc/header.php",
+		"/C/xampp/htdocs/logs/index.php",
+		"/C/Users/Mark/Desktop/login-registration-php-new/register.php",
+		"/C/xampp/htdocs/logs/inc/footer.php",
+		"/C/xampp/htdocs/logs/acceptfeedback.php",
+		"/C/Users/Mark/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/Default (Windows).sublime-keymap",
+		"/C/Users/Mark/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Mark/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Mark/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/xampp/htdocs/logs/logs.php",
+		"/C/Users/Mark/AppData/Roaming/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/C/xampp/htdocs/logs/welcome.php",
+		"/C/xampp/htdocs/logs/bootstrap.php",
+		"/C/xampp/htdocs/logs/css/styles.css",
+		"/C/xampp/htdocs/logs/inc/linkstyler.php",
+		"/C/xampp/htdocs/logs/bootstrap/css/bootstrap.css",
+		"/C/xampp/htdocs/logs/bootstrapv2.php",
+		"/C/xampp/htdocs/logs/test.php",
+		"/C/xampp/htdocs/logs/about.php",
+		"/C/Users/Mark/AppData/Roaming/Sublime Text 3/Packages/User/CodeFormatter.sublime-settings",
+		"/C/Users/Mark/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/CodeFormatter.sublime-settings",
+		"/C/xampp/htdocs/logs/index.html",
+		"/C/Users/Mark/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Users/Mark/Desktop/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css",
+		"/C/Users/Mark/Desktop/bootstrap-3.3.7-dist/css/bootstrap.css",
+		"/C/Users/Mark/Desktop/bootstrap-3.3.7-dist/css/bootstrap.css.map",
+		"/C/Users/Mark/Desktop/bootstrap-3.3.7-dist/css/bootstrap.min.css",
+		"/C/Users/Mark/Desktop/bootstrap-3.3.7-dist/css/bootstrap.min.css.map",
+		"/C/Users/Mark/Desktop/bootstrap-3.3.7-dist/css/bootstrap-theme.css",
+		"/C/Users/Mark/Desktop/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map",
+		"/C/Users/Mark/Desktop/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map",
+		"/C/Users/Mark/AppData/Roaming/Sublime Text 3/Packages/Colorcoder/colorcoder.sublime-settings",
+		"/C/Users/Mark/PhpstormProjects/loggy/test.php",
+		"/C/Users/Mark/AppData/Roaming/Sublime Text 3/Packages/User/PHPproper.sublime-build",
+		"/C/Users/Mark/AppData/Roaming/Sublime Text 3/Packages/User/php.sublime-build"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"<project>",
+			"C:\\xampp\\htdocs\\logs"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$users",
+			"app\\models\\User::$users",
+			"connection.php",
+			"inc/connection.php",
+			"res",
+			"myguests",
+			"MyGuests",
+			"ctrl+shift+c",
+			"ctrl+shift+f",
+			"isset",
+			".nav a > li",
+			".nav a >li",
+			"headernav",
+			"on",
+			".active",
+			"col-lg-1",
+			"coukd not",
+			"mysql",
+			"lightgreen",
+			"on",
+			"pos",
+			"hover",
+			"under",
+			"text-dec",
+			"label"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"dbconnect.php",
+			"users",
+			"col-lg-1 col-xs-4"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 67.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.show_commit_info":
+	{
+		"height": 102.0
+	},
+	"output.xdebug":
+	{
+		"height": 78.0
+	},
+	"pinned_build_system": "Packages/User/PHPproper.sublime-build",
+	"project": "personal-review.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 128.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

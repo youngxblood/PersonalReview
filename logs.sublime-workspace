@@ -141,7 +141,7 @@
 			"file": "logs.php",
 			"settings":
 			{
-				"buffer_size": 4554,
+				"buffer_size": 4338,
 				"line_ending": "Windows"
 			}
 		},
@@ -149,7 +149,7 @@
 			"file": "register.php",
 			"settings":
 			{
-				"buffer_size": 2168,
+				"buffer_size": 1950,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -530,6 +530,7 @@
 							"incomplete_sync": null,
 							"syntax": "Packages/GitSavvy/syntax/branch.sublime-syntax",
 							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
@@ -657,7 +658,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4554,
+						"buffer_size": 4338,
 						"regions":
 						{
 						},
@@ -768,15 +769,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2168,
+						"buffer_size": 1950,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								116,
-								116
+								0,
+								0
 							]
 						],
 						"settings":

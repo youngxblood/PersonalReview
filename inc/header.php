@@ -15,7 +15,7 @@
 <header>
 <span class="date"> <?php echo date("l, j, F") ?> </span>
 <div class="col-lg-8 col-md-8 col-sm-8">
-<h1>PERSONAL REVIEW: <br><small>WEEKLY PERSONAL UPDATES</small></h1><br>
+<h1>PERSONAL REVIEW: <br><small>WEEKLY PROGRESS UPDATES</small></h1><br>
 
 </div>
 </header>
@@ -37,10 +37,10 @@
         <li><a href="userfeedback.php?cat=feedback" class="<?php if ($section == "feedback") {
             echo "on";
         } ?>">FEEDBACK</a></li>
-        <li><a href="bootstrap.php?cat=bootstrap" class="<?php if ($section == "bootstrap") {
+        <li><a href="bootstrapv2.php?cat=bootstrap" class="<?php if ($section == "bootstrap") {
             echo "on";
         } ?>">BOOTSTRAP</a></li>
-        <li><a href="register.php">REGISTER</a></li>
+        <li><a href="home.php">REGISTER</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>

@@ -1,19 +1,35 @@
 <?php
+
 $pageTitle = "Home";
 $section = 'home';
-include "inc/login.php";
+include "model/login.php";
+include "model/register.php";
 include "inc/header.php";
 ?>
 
 <div class="content">
 	<div id="wrapper" class="content-inside">
-		<p>paragraph.</p>
-	</div>
-</div>
+
+		<form action="" method="post">
+      <label for="email">Email: </label>
+      <input type="text" name="email">
+      <label for="pass">Password: </label>
+      <input type="text" name="pass">
+      <input type="submit" name="btn-login">
 
 
-<?php
-    // <?php echo htmlspecialchars('register.php'); // PARKING HERE TEMPORARILY
-include "inc/footer.php"
-?>
-<?php ob_end_flush(); ?>
+  <?php
+
+  if (isset($_SESSION['user']))
+
+  ?>
+
+
+    </div>
+  </div>
+
+
+  <?php
+  include "inc/footer.php";
+  ob_end_flush();
+  ?>

@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"fo",
+				"for\tAttr"
+			],
+			[
+				"su",
+				"submit\t(logs.php)"
+			],
+			[
+				"tex",
+				"text\t(logs.php)"
+			],
+			[
+				"home",
+				"home.php"
+			],
+			[
 				"user",
 				"username"
 			],
@@ -122,16 +138,9 @@
 			[
 				"ac",
 				"action\tAttr"
-			],
-			[
-				"fo",
-				"form\tTag"
 			]
 		]
 	},
-	"buffers":
-	[
-	],
 	"build_system": "",
 	"build_system_choices":
 	[
@@ -140,9 +149,17 @@
 	"command_palette":
 	{
 		"height": 357.0,
-		"last_filter": "package sync",
+		"last_filter": "push",
 		"selected_items":
 		[
+			[
+				"push",
+				"git: push"
+			],
+			[
+				"bra",
+				"git: branch"
+			],
 			[
 				"package sync",
 				"PackageSync: Sync Online - Push Settings to Online Sync Folder"
@@ -164,10 +181,6 @@
 				"Boxy Theme: Activation"
 			],
 			[
-				"push",
-				"git: push"
-			],
-			[
 				"bran",
 				"git: branch"
 			],
@@ -186,10 +199,6 @@
 			[
 				"git",
 				"git: push"
-			],
-			[
-				"bra",
-				"git: branch"
 			],
 			[
 				"start",
@@ -270,24 +279,22 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/xampp/htdocs/personalreview"
-	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/personalreview/model/register.php",
+		"/C/xampp/htdocs/personalreview/home.php",
+		"/C/xampp/htdocs/personalreview/model/login.php",
+		"/C/xampp/htdocs/personalreview/inc/header.php",
 		"/C/xampp/htdocs/personalreview/index.php",
+		"/C/xampp/htdocs/personalreview/logs.php",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
 		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
 		"/C/xampp/htdocs/basic-yii/models/User.php",
 		"/C/xampp/htdocs/basicyii/config/web.php",
-		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
-		"/C/xampp/htdocs/personalreview/inc/header.php",
 		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
 		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/Boxy Theme Addon - Unified Mode/Widget - Boxy Tomorrow.sublime-settings",
 		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/Boxy Theme Addon - Unified Mode/Widget - Boxy Tomorrow.stTheme",
 		"/C/xampp/htdocs/personalreview/inc/sqltableinit.php",
-		"/C/xampp/htdocs/personalreview/home.php",
-		"/C/xampp/htdocs/personalreview/logs.php",
 		"/C/xampp/htdocs/personalreview/welcome.php",
 		"/C/xampp/htdocs/personalreview/register.php",
 		"/C/xampp/htdocs/personalreview/acceptfeedback.php",
@@ -345,6 +352,7 @@
 		"height": 92.0,
 		"where_history":
 		[
+			"C:\\xampp\\htdocs\\personalreview",
 			"<project>",
 			"C:\\xampp\\htdocs\\logs"
 		]
@@ -354,6 +362,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"session",
+			"include \"inc/register.php\"",
 			"$users",
 			"app\\models\\User::$users",
 			"connection.php",
@@ -396,14 +406,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"sheets":
-			[
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 26.0
@@ -420,17 +422,31 @@
 				0,
 				0,
 				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
 				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.631114130435,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.726165501165,
 			1.0
 		]
 	},
@@ -456,7 +472,6 @@
 		"height": 78.0
 	},
 	"pinned_build_system": "Packages/User/PHPproper.sublime-build",
-	"project": "personal-review.sublime-project",
 	"replace":
 	{
 		"height": 48.0
@@ -489,12 +504,51 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 		"xdebug":
 		{
-			"hide_conflict": false
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"16":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"78":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"98":
+				{
+					"group": 0,
+					"index": 2
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
 		}
 	},
 	"show_minimap": true,
